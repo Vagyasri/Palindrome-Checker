@@ -1,7 +1,7 @@
 {
   "name": "palindrome-checker",
   "version": "1.0.0",
-  "description": "In this project, we are creating a website consisting of Recipes from around the world. We are using a Kanban board for practice purposes and we have used an external API.s",
+  "description": "In this Project, I will be checking if a string is Palindrome or not. I will create function using Javascript.",
   "private": true,
   "scripts": {
     "test": "jest",
