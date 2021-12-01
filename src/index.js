@@ -8,20 +8,18 @@ const palindrome = (str) => {
   }
   str = newStr.join('');
   arr = arr.join('');
-  console.log(str);
-  console.log(arr);
   return (arr === str);
 };
 
-console.log(palindrome('eye'));
-console.log(palindrome('_eye'));
-console.log(palindrome('race car'));
-console.log(palindrome('not a palindrome'));
-console.log(palindrome('A man, a plan, a canal. Panama'));
-console.log(palindrome('never odd or even'));
-console.log(palindrome('nope'));
-console.log(palindrome('almostomla'));
-console.log(palindrome('My age is 0, 0 si ega ym.'));
-console.log(palindrome('1 eye for of 1 eye.'));
-console.log(palindrome('0_0 (: /-\\ :) 0-0'));
-console.log(palindrome('five|\\_/|four'));
+console.log(palindrome('eye')); // true
+console.log(palindrome('_eye')); // true
+console.log(palindrome('race car')); // true
+console.log(palindrome('not a palindrome')); // false
+console.log(palindrome('A man, a plan, a canal. Panama')); // true
+console.log(palindrome('never odd or even')); // true
+console.log(palindrome('nope')); // false
+console.log(palindrome('almostomla')); // false
+console.log(palindrome('My age is 0, 0 si ega ym.')); // true
+console.log(palindrome('1 eye for of 1 eye.')); // false
+console.log(palindrome('0_0 (: /-\\ :) 0-0')); // true
+console.log(palindrome('five|\\_/|four')); // false
