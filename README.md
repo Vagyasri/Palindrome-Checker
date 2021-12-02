@@ -3,6 +3,8 @@ A palindrome is a word or sentence that's spelled the same way both forward and 
 
 In this Project, I will be checking if a string is Palindrome or not. I will create function using Javascript.
 
+Note: We'll need to remove all non-alphanumeric characters (punctuation, spaces and symbols) and turn everything into the same case (lower or upper case) in order to check for palindromes.
+
 ## Built With
 
 - HTML
