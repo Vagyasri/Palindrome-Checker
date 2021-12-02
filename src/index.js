@@ -2,7 +2,7 @@ import './style.css';
 
 const palindrome = (str) => {
   let arr = [];
-  const newStr = str.toLowerCase().split('');
+  const newStr = str.toLowerCase().replace(/[\W_]/g, '').split('');
   for (let i = newStr.length - 1; i >= 0; i -= 1) {
     arr.push(newStr[i]);
   }
