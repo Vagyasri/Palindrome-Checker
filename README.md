@@ -13,10 +13,6 @@ Note: We'll need to remove all non-alphanumeric characters (punctuation, spaces 
 - Webpack
 - ES6
 
-## Screenshot
-
-![Drum](Drum.png) 
-
 ## Live Demo
 
 [Live View!!](https://vagyasri.github.io/Palindrome-Checker/dist/)
